@@ -3,3 +3,12 @@
 - Start by running `npm i` to install all the dependencies
 - Run the `npm run server-dev `.
 - If you want to use any of the routes in the routes folder just write in your request `http://localhost:8080/[your link here]`
+- Once that is done open (Insomnia Or Postman)
+- make a POST request to http://localhost:8080/api/user/register
+with this object : {
+	"name": "someone",
+	"email": "someone@something.com",
+	"password": "123456789",
+	"confirmedPassword": "123456789"
+}
+- Send the request to register
